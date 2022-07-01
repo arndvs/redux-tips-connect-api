@@ -38,7 +38,7 @@ export const NewItemForm = ({ onSubmit }) => {
           <Label htmlFor="item-price">Price</Label>
           <Input
             id="item-price"
-            type="number"
+            type="text"
             insertBefore={<div>$</div>}
             value={price}
             onChange={(event) => setPrice(event.target.value)}

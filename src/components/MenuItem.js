@@ -46,7 +46,7 @@ export const MenuItem = ({
           />
         </Box>
         <Box padding="space20" textAlign="right" width="100%">
-          <Heading variant="heading50">Total</Heading>
+          <Heading variant="heading50" as="h4">Total</Heading>
           {toCurrency(total)}
         </Box>
       </Flex>
