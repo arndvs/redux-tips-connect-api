@@ -10,11 +10,9 @@ import {
 
 import { selectItemTotal } from "../store/items/selectors";
 
-const mapStateToProps = (state, ownProps) => {
-    return {
+const mapStateToProps = (state, ownProps) => ({
         total: selectItemTotal(state, ownProps)
-    }
-}
+});
 
 const mapDispatchToProps = (dispatch, ownProps) => {
     return {
